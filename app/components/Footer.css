@@ -24,7 +24,7 @@
 @media (max-width: 767px) {
   .footer {
     position: relative;
-    margin-top: 230%;
+    margin-top: 240%;
     height: 150px;
     clear: both;
   }
@@ -33,7 +33,7 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
     align-items: center;
     justify-content: center;
-    padding-right: 75px;
+    padding-right: 30px;
   }
   .footer .container .linked {
     margin-left: -12px;
