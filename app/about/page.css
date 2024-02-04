@@ -1,0 +1,21 @@
+.about .skills .skill img {
+  width: 6rem;
+}
+@media (max-width: 767px) {
+  .about .skills  {
+    margin-right: 20px;
+  }
+  .about .skills .skill {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .skills .skill .logo {
+    margin-bottom: 40px;
+  }
+  .about .footer{
+    margin-top: -8%;
+  }
+}

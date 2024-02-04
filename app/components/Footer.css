@@ -1,0 +1,63 @@
+.footer {
+  background-color: #000000;
+  margin-top: 25%;
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 110px;
+  display: flex;
+  
+}
+.footer .container {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-items: center;
+  justify-content: center;
+}
+.footer .container .social {
+  margin-top: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-left: -20px;
+}
+@media (max-width: 767px) {
+  .footer {
+    position: relative;
+    margin-top: 230%;
+    height: 150px;
+    clear: both;
+  }
+  .footer .container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
+    padding-right: 75px;
+  }
+  .footer .container .linked {
+    margin-left: -12px;
+  }
+  .footer .container .whatsapp {
+    width: 180px;
+  }
+  .footer .container .github {
+    width: fit-content;
+    margin-left: 104px;
+  }
+}
+.social svg {
+  margin-right: 2px;
+}
+.gmail:hover svg {
+  color: rgb(196, 32, 32);
+}
+.facebook:hover svg {
+  color: #1178F2;
+}
+.linked:hover svg {
+  color: #007AB6;
+}
+.whatsapp:hover svg {
+  color: #5AF471;
+}
